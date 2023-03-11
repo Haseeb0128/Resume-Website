@@ -2,6 +2,7 @@ import {TfiEmail} from 'react-icons/tfi';
 import {MdOutlinePhoneIphone} from 'react-icons/md'
 import {ImLocation} from 'react-icons/im'
 import {BsLinkedin} from 'react-icons/bs'
+import Image from 'next/image';
 
 
 export default function Home() {
@@ -13,8 +14,8 @@ export default function Home() {
           <h1 className="text-5xl text-center md:text-left">Muhammad Haseeb</h1>
           <p className="text-center md:text-left max-w-3xl text-xl">A person who is self-motivated, humble, honest, respectful towards others and is enthusiastic about achieving dream goals. Have a keen interest in learning about new technologies, platforms, and languages.</p>
         </div>
-        <div>
-          <img className="object-cover rounded-full border-[#2C363F] border-8 max-w-[200px] m-auto" src={"/pic.jpg"} alt={"pic"} />
+        <div className="object-cover rounded-lg border-[#2C363F] border-8 max-w-[200px] m-auto">
+          <Image src={"/pic.jpg"} alt={"pic"} width={200} height={200} />
         </div>
       </div>
       <div className='md:flex-row flex flex-col text-white gap-3 bg-[#2D6FAA] justify-between px-8 py-4'>
