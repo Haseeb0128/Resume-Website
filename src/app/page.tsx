@@ -9,7 +9,7 @@ export default function Home() {
   return (
     
       <>
-      <div className="sm:flex-row flex flex-col-reverse bg-[#4685C6] p-8 justify-between gap-5">
+      <div className="sm:flex-row flex flex-col-reverse bg-[#4685C6] p-4 sm:p-8 justify-between gap-5">
         <div className="text-white flex flex-col gap-3 md:text-center lg:text-left">
           <h1 className="text-5xl text-center md:text-left">Muhammad Haseeb</h1>
           <p className="text-center md:text-left max-w-3xl text-xl">A person who is self-motivated, humble, honest, respectful towards others and is enthusiastic about achieving dream goals. Have a keen interest in learning about new technologies, platforms, and languages.</p>
@@ -18,7 +18,7 @@ export default function Home() {
           <Image src={"/pic.jpg"} alt={"pic"} width={200} height={200} />
         </div>
       </div>
-      <div className='md:flex-row flex flex-col text-white gap-3 bg-[#2D6FAA] justify-between px-8 py-4'>
+      <div className='md:flex-row flex flex-col text-white gap-3 bg-[#2D6FAA] justify-between px-4 sm:px-8 py-4'>
         <div className='flex flex-col gap-3'>
           <div className='flex gap-2'>
           <TfiEmail size={"30px"} />
@@ -34,13 +34,13 @@ export default function Home() {
           <MdOutlinePhoneIphone size={"30px"} />
           <div className='text-[17px]'>03328359845</div>
           </div>
-          <div className='flex flex-wrap gap-2'>
+          <div className='flex gap-2'>
           <BsLinkedin size={"30px"} />
           <div className='text-[17px]'><a href='https://www.linkedin.com/in/muhammad-haseeb-6b2b15152' target={"_blank"}>linkedin.com/in/muhammad-haseeb</a></div>
           </div>
         </div>
       </div>
-      <div className='sm:flex-row flex flex-col justify-between p-8 gap-8'>
+      <div className='sm:flex-row flex flex-col justify-between p-4 sm:p-8 gap-8'>
         <div className='flex flex-col gap-8 basis-1/2'>
           <div className='flex flex-col gap-4'>
           <div className='flex flex-col'>
@@ -53,7 +53,7 @@ export default function Home() {
           <div className='flex flex-col'>
             <h4 className='text-[20px] font-bold'>Bachelor of Computer Science</h4>
             <p className='text-[18px] font-medium'>Government College University</p>
-            <span>08/2018 - 08-2022</span>
+            <span>08/2018 - 11/2022</span>
             <span>Lahore, Pakistan</span>
             <span className='mt-2'>Subjects</span>
             <div className='flex justify-between'>
